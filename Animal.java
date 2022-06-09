@@ -5,14 +5,13 @@ public class Animal {
 	private String nombre;
 	private String raza;
 
-
+	//CONSTRUCTOR
 	public Animal(String nombre, String raza) {
 		this.nombre=nombre;
 		this.raza=raza;
-	}
+	}//fin constructor
 	
 	//SETTERS Y GETTERS
-	
 	public String getNombre() {
 		return nombre;
 	}
@@ -25,7 +24,6 @@ public class Animal {
 	public void setRaza(String raza) {
 		this.raza = raza;
 	}
-	
 	
 	//MÉTODOS PROPIOS
 	public String diOnomatopeya() {

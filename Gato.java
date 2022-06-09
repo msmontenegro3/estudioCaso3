@@ -1,3 +1,4 @@
+//Fig. X.X: Gato.java
 package EstudioCaso3;
 
 public class Gato extends Animal{
